@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+p{
+    color: #27272799;
+    font-size: 18px;
+}
+.btn-primary{
+    border: none;
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    background: #E55473;
+}
+h2{
+    color: #272727;
+    font-size: 75px;
+    font-weight: 800;
+}
+
+/* header style */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #E554731A;
+    margin-bottom: 150px;
+}
+.header .header-title{
+    
+    padding: 200px 100px 150px 240px;
+    
+
+}
+
+.header .header-title p{
+    margin:32px 0;
+}
+
+.banner img{
+    margin: 50px 240px 0px 100px;
+     
+}
+
+/* header style ends  */
+
+/* body style starts  */
+
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    background: #E554731A;
+}
+
+.body-title{
+    display: block;
+
+}
+.body-title-content{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 230px 220px 25px 420px;
+
+}
+.body-title p{
+    margin: 0 190px 32px 395px;
+
+}
+.body .body-btn{
+    margin-left: 600px;
+}
+
+
+/* social design starts  */
+.social-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+.social-paragraph{
+    text-align: center;
+    margin: 24px 670px;
+}
+.flower-details{
+    margin: 30px 240px 70px 240px;
+}
+
+.flower-details ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.flower-details ul li img{
+    border-radius: 8px;
+}
+
+/* subscription style starts  */
+
+.subscription-part{
+    width: 1420px;
+    height: 449px;
+    margin: 20px auto;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    border-radius: 10px;
+    
+}
+.subscription-part h3{
+    padding-top: 122px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.subscription-part p, button{
+    text-align: center;
+}
+
+.subscription-part .text-field{
+    display: flex;
+    align-items: center;
+    margin: 48px 287px 121px 287px;
+}
+.subscription-part .email-box{
+    width: 764px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+}
+.subscription-part .btn-primary{
+    height: 64px;
+    margin-left: 20px;
+}
+
+
+/* footer style  */
+.title-footer{
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+}
+.title-footer h3{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 128px;
+    padding-top:128px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.title-footer h3 span{
+    color: #E55473;
+}
+.title-footer p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 640px 32px 640px;
+}
+.title-footer .copyright{
+    color: #FFFFFF66;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 32px 780px 128px 780px;
+
+}
