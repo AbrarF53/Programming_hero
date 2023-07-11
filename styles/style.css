@@ -60,10 +60,12 @@ h2{
     display: flex;
     justify-content: space-between;
     background: #E554731A;
+    height: 622px;
 }
 
 .body-title{
     display: block;
+    padding-top: 50px;
 
 }
 .body-title-content{
@@ -72,6 +74,9 @@ h2{
     font-weight: 800;
     margin: 130px 220px 25px 420px;
 
+}
+.body-flower{
+    padding-top: 20px;
 }
 .body-title p{
     margin: 0 190px 32px 395px;
@@ -112,7 +117,7 @@ h2{
 .subscription-part{
     width: 1420px;
     height: 449px;
-    margin: 20px auto;
+    margin: 45px auto;
     background-image: url('../Flower Asset/Rectangle 9.png');
     border-radius: 10px;
     
@@ -176,4 +181,60 @@ h2{
     font-weight: 400;
     margin: 32px 780px 128px 780px;
 
+}
+
+
+/* bonus part style  */
+.featured-items{
+    width: 1920px;
+    text-align: center;
+    margin-bottom: 128px;
+}
+.featured-items>p{
+   margin: 24px 663px 48px 663px;
+}
+
+.featured-items .card{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-right: 240px;
+   
+}
+.card1{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: #A7216226;
+    margin-right: 24px;
+}
+.card2{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: #0597A026;
+    margin-right: 24px;
+}
+.card3{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: #477D1126;
+}
+.card img{
+    width: 310px;
+    height: 428px;
+    margin-top: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 32px 200px;
+}
+.container p{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }
